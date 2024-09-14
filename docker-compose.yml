@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      LANGCHAIN_API_KEY: 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
+      LANGCHAIN_TRACING_V2: "true"
+      LANGCHAIN_PROJECT: Intern_Assignment
+      LANGCHAIN_ENDPOINT: https://api.smith.langchain.com
+    networks:
+      - app-network
+
+  react:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: development
+    networks:
+      - app-network
+
+
+networks:
+  app-network:
+    driver: bridge
+
+
