@@ -23,6 +23,7 @@ services:
       - "3000:3000"
     environment:
       NODE_ENV: development
+      BACKEND_BASE_URL: http://fastapi:8000
     networks:
       - app-network
 
