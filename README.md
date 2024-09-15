@@ -23,7 +23,7 @@ This project is an AI-powered HTML resume generator that allows users to upload 
 ## Project Architecture
 ### Frontend
 - **Technologies:** Javascript, React, Axios, Docker
-- **Port:** 3000
+- **Port:** ``3000``
 - **Key Features:**
   - Home page for uploading LinkedIn PDF and entering OpenAI API key.
   - Makes a POST request to the backend, sending the API key and PDF.
@@ -31,7 +31,7 @@ This project is an AI-powered HTML resume generator that allows users to upload 
 
 ### Backend
 - **Technologies:** Python, FastAPI, PyPDFLoader, OpenAI, Langchain, Docker
-- **Port:** 8000
+- **Port:** ``8000``
 - **Key Features:**
   - Receives a POST request with OpenAI API key and the uploaded PDF.
   - Utilizes PyPDFLoader to extract text from the PDF.
