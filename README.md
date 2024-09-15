@@ -16,8 +16,8 @@ This project is an AI-powered HTML resume generator that allows users to upload 
 </table>
 
 ## Features
-- **Frontend**: Built with React, containerized using Docker, and exposed on localhost:3000.
-- **Backend**: Developed with Python and FastAPI, exposed on localhost:8000. It extracts PDF content and generates a JSON-based resume using OpenAI LLM and schema-based function calls.
+- **Frontend**: Built with React, containerized using Docker, and exposed on ``localhost:3000``.
+- **Backend**: Developed with Python and FastAPI, exposed on ``localhost:8000``. It extracts PDF content and generates a JSON-based resume using OpenAI LLM and schema-based function calls.
 - **Technologies Used**: React, Docker, Docker Compose, Bridge Network, AWS EC2, Axios, FastAPI, Langchain, OpenAI, PyPDFLoader.
 
 ## Project Architecture
@@ -43,8 +43,8 @@ This project is an AI-powered HTML resume generator that allows users to upload 
 - **Frontend** and **Backend** are containerized using Docker.
 - **Docker Compose** is used for setting up the services, enabling bridge networking between frontend and backend.
 - Exposed Ports:
-  - Frontend: localhost:3000
-  - Backend: localhost:8000
+  - Frontend: ``localhost:3000``
+  - Backend: ``localhost:8000``
 
 ### Workflow
 ```
