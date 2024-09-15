@@ -2,6 +2,20 @@
 
 This project consists of a **React** frontend and a **FastAPI** backend. The entire application is containerized using **Docker** to simplify setup and deployment.
 
+[DEMO](http://ec2-16-171-22-107.eu-north-1.compute.amazonaws.com:3000/)
+
+## Screenshots
+<table>
+  <tr>
+    <td style="text-align:center;">
+      <img src="screenshots/home.png" alt="Home" width="250" />
+    </td>
+    <td style="text-align:center;">
+      <img src="screenshots/resume.png" alt="Resume" width="250" />
+    </td>
+  </tr>
+</table>
+
 ## Prerequisites
 
 - Install [Docker](https://docs.docker.com/get-docker/) on your machine.
