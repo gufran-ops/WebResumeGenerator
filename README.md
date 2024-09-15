@@ -1,12 +1,32 @@
-How to run app:
-1. Open terminal and cd into FastAPI
-2. type: pip install requirements.txt
-3. type: uvicorn main:app --reload
+# HTML Resume Generator
 
-Open new terminal (keep other running)
-1. Cd into React/finance-app
-2. type: npm install
-3. type: npm install axios
-4. npm start
+This project consists of a **React** frontend and a **FastAPI** backend. The entire application is containerized using **Docker** to simplify setup and deployment.
 
-Remember two terminals should be running
+## Prerequisites
+
+- Install [Docker](https://docs.docker.com/get-docker/) on your machine.
+- Install Docker Compose on your machine
+
+## Running the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/WebResumeGenerator.git
+   cd WebResumeGenerator
+   ```
+2. Build the Docker images for the frontend and backend:
+    ```bash
+    docker compose build
+    ```
+3. Run the Docker containers:
+    ```bash
+    docker compose up
+    ```
+4. The frontend will be accessible at http://localhost:3000
+5. The backend will be accessible at http://localhost:8000
+
+## Frontend
+For more details on the frontend, refer to the [Frontend README]().
+
+## Backend
+For more details on the backend, refer to the [Backend README]().
