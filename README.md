@@ -8,10 +8,10 @@ This project consists of a **React** frontend and a **FastAPI** backend. The ent
 <table>
   <tr>
     <td style="text-align:center;">
-      <img src="screenshots/home.png" alt="Home" width="250" />
+      <img src="screenshots/home.png" alt="Home" width="600" />
     </td>
     <td style="text-align:center;">
-      <img src="screenshots/resume.png" alt="Resume" width="250" />
+      <img src="screenshots/resume.png" alt="Resume" width="600" />
     </td>
   </tr>
 </table>
